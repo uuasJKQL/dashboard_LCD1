@@ -72,23 +72,7 @@ int main(void)
     while(1) 
 	{		 
 
-//        LCD_ShowNum(60,100,num,10,24);
-//        if(num>500)
-//        {
-//            
-//            
-//            LCD_Clear(WHITE);
-      
-//      
-//        delay_ms(5000);	
-//            LCD_Clear(WHITE);
-//             LCD_Show_interface();
-//            num=0;
-//        }
-//        delay_ms(1000);	
-        
-  
-  
+
    Show_power(SOC);
   
    LCD_ShowFloat(26,50,Battery_Voltage,210,24);
