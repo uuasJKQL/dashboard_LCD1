@@ -241,14 +241,14 @@ void response_n()
     //ID_0x1631143F_Timeout_Timer++;
     ID_0x1631243F_Timeout_Timer++;
 if(ID_0x1631043F_Timeout_Timer>=100)
-{ Motor_MaxTem=0;//0
- Inverter_MaxTemp=0;//0
+{// Motor_MaxTem=0;//0
+ //Inverter_MaxTemp=0;//0
 }
 if(ID_0x1631243F_Timeout_Timer>=100)
-{ Battery_Voltage=0;
-SOC=0;
- Cell_MaxTemp=0;
- Cell_MinVoltage=0;
+{ //Battery_Voltage=0;
+//SOC=0;
+ //Cell_MaxTemp=0;
+ //Cell_MinVoltage=0;
 }
 }
 //if(ID_0x1631143F_Timeout_Timer>=100)
